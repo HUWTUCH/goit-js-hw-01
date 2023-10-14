@@ -1,3 +1,4 @@
+"use strict"
 function getElementWidth(content, padding, border) {
     // We convert parameter values ​​into numbers, discarding "px" and calculate their sum
     const contentWidth = parseInt(content);
